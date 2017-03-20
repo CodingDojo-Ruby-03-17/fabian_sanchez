@@ -1,6 +1,6 @@
 =begin
 ============================
-Assignment: Arrays
+Assignment: Range
 ============================
 
 -------
