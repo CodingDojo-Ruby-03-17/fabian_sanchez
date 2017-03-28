@@ -26,7 +26,7 @@ class Mammal
   # Definition of attributes
   # Initializing health
   def initialize (health=150)
-    @health = health
+    @health = 150
   end
 
   #Definition of public methods
