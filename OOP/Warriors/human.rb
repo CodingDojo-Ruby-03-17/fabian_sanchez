@@ -21,7 +21,7 @@ Human Class definition:
 ----------------------
 Author: Fabian Sanchez
 ----------------------
-Date: 03/28/2017
+Date: 04/04/2017
 ----------------------
 =end
 
@@ -32,7 +32,7 @@ class Human
   attr_accessor :intelligence
   attr_accessor :stealth
   attr_accessor :health
-  # Initializing health
+  # Initializing object
   def initialize (strength=3, intelligence=3, stealth=3, health=100)
     @strength = strength
     @intelligence = intelligence
@@ -50,5 +50,6 @@ class Human
     else
       "Not a human"
     end # End if
+    return self
   end # End attack
 end # End Human
